@@ -663,7 +663,7 @@ footer .copyright {
 
 /* Responsiveness for small screen device */
 
-@media (max-width: 477px) {
+@media (max-width: 515px) {
   .section-p1 {
     padding: 20px;
   }
