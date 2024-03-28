@@ -14,3 +14,10 @@ if (close) {
     nav.classList.remove('active');
   });
 }
+
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('#navbar') && !event.target.matches('#bar')) {
+    nav.classList.remove('active');
+    console.log('Clicked outside navbar. Closing navbar.');
+  }
+});
